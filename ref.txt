@@ -1,0 +1,10 @@
+link:- https://javascript.plainenglish.io/unit-testing-node-js-mongoose-using-jest-106a39b8393d
+
+
+
+How to test a function that’s expected to throw error in jest…
+link:- How to test a function that’s expected to throw error in jest…
+Can you write async tests that expect toThrow?
+link:- https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow
+How to test the type of a thrown exception in Jest
+https://stackoverflow.com/questions/46042613/how-to-test-the-type-of-a-thrown-exception-in-jest/58103698#58103698
