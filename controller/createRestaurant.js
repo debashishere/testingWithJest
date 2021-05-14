@@ -6,7 +6,7 @@ module.exports = async function createRestaurant(name, location, budget) {
 
         //check nameis not repeated
         const hasName = await Restaurant.findOne({ name: name})
-        if(hasName) throw new Error(`A restaurent with ${name} already exsists.`)
+        if(hasName) throw new Error(`A restaurent already exsists with that name.`)
 
         // create
         const newRest = new Restaurant({
@@ -21,6 +21,6 @@ module.exports = async function createRestaurant(name, location, budget) {
         }
     }
     catch(err){
-        console.log(err);
+        throw err
     }
 }
